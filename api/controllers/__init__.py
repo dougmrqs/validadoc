@@ -1,0 +1,1 @@
+from .validationController import validaCPF
