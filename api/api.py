@@ -4,7 +4,8 @@ api = Flask(__name__)
 
 from routes import *
 
-# api.config['DEBUG'] = True
+api.config['DEBUG'] = True
 
 if __name__ == "__main__":
-    api.run()
+    port = 5000
+    api.run(host='0.0.0.0', port=port)
