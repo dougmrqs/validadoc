@@ -1,1 +1,1 @@
-web: gunicorn api.api:validadoc
+web: gunicorn api.api
