@@ -2,7 +2,7 @@ from flask import Flask
 
 api = Flask(__name__)
 
-import routes
+import api.routes
 
 api.config['DEBUG'] = True
 
